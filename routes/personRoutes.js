@@ -18,7 +18,7 @@ router.post('/', async (req, res) => {
     try {
         //Criando dados
         await Person.create(person);
-        res.status(201).json({ message: 'person successfully created' });
+        res.status(201).json({ message: 'Pessoa criada com sucesso!' });
     } catch (error) {
         res.status(500).json({
             error: error

@@ -17,9 +17,7 @@ app.use(cors())
 app.use(express.json());
 //Rotas da API
 const personRoutes = require('./routes/personRoutes')
-const userRoutes = require('./routes/userRoutes')
 app.use('/person', personRoutes);
-app.use('/user', userRoutes);
 //Rota inicial / Endpoint
 app.get('/', (req, res) => {
     //Mostra requisição
