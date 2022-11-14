@@ -1,0 +1,23 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "keywords": [],
+  "author": "Rinaldo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "^6.5.0",
+    "nodemon": "^2.0.19"
+  },
+  "description": ""
+}
